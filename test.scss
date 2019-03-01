@@ -1,0 +1,289 @@
+/* Prime NG style */
+/*
+ * FileUpload
+ */
+$dark-grey: #364A60; 
+$light-gray: #4B4E53;
+$white: #D5D5D5;
+$blue: #156090;
+.ui-fileupload-buttonbar .ui-fileupload-choose.ui-state-disabled input {
+    cursor: default;
+  }
+  
+  .ui-fileupload-buttonbar {
+    padding: .5em;
+    border-bottom: 0 none;
+  }
+  
+  .ui-fileupload-buttonbar .ui-button {
+    vertical-align: middle;
+    margin-right: .25em;
+  }
+  
+  .ui-fileupload-content {
+    padding: 0;
+    position: relative;
+    transition: border-color .3s;
+    -webkit-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -ms-transition: border-color .3s;
+    -o-transition: border-color .3s;
+  }
+  
+  .ui-fileupload-content.ui-fileupload-highlight {
+    border-color: $blue;
+  }
+  
+  .ui-fileupload-files img {
+    border: none;
+  }
+  
+  .ui-fileupload-files {
+    display: table;
+  }
+  
+  .ui-fileupload-row {
+    display: table-row;
+  }
+  
+  .ui-fileupload-row>div {
+    display: table-cell;
+    padding: .5em 1em;
+    vertical-align: middle;
+  }
+  
+  .ui-fileupload-content .ui-progressbar {
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: .25em;
+    border: 0 none;
+  }
+  
+  .ui-fileupload-content .ui-progressbar-value {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0 none;
+  }
+  
+  /* Simple */
+  .ui-fileupload-choose {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ui-fileupload-choose input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    direction: ltr;
+    cursor: pointer;
+  }
+  
+  .ui-fileupload-choose.ui-fileupload-choose-selected input[type=file] {
+    display: none;
+  }
+  
+  /* ui-fluid */
+  .ui-fluid .ui-fileupload .ui-button {
+    width: auto;
+  }
+  
+  .ui-fluid .ui-fileupload-content .ui-button-icon-only {
+    width: 2em;
+  }
+  
+  
+  /* Custom style */
+  .file-upload-box-padding {
+    padding: 20px 20px 35px 20px !important;
+    text-align: center;
+  }
+  
+  #file_upload_icon {
+    width: 54px;
+    height: 50px;
+  }
+  
+  .ui-fileupload-content {
+    border: 1.4px dashed $white !important;
+    margin-top: 20px;
+  }
+  
+  .ui-fileupload-buttonbar {
+    padding: 20px 0 0 0 !important;
+    background-color: transparent !important;
+    border: 0px !important;
+  }
+  
+  .mb-5,
+  .my-5 {
+    margin-bottom: 2.5rem !important;
+  }
+  
+  .margin-bottom-10 {
+    margin-bottom: 10px !important;
+  }
+  
+  .heading_5 {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    
+  }
+  
+  .w-100 {
+    width: 100% !important;
+  }
+  
+  .p-2 {
+    padding: .625rem !important;
+    color: $light-gray;
+  }
+  .width-adjust{
+    min-width: 50px;
+  }
+  
+  .p-0 {
+    padding: 0 !important;
+  }
+  
+  
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+  }
+  
+  .d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  
+  .flex-column,
+  .flex-row {
+    -webkit-box-direction: normal !important;
+  }
+  
+  .flex-column {
+    -webkit-box-orient: vertical !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  
+  .flex-row {
+    -webkit-box-orient: horizontal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+  
+  .align-items-center {
+    /* -webkit-box-align: center!important; */
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  
+  /* Browse for file button */
+  
+  .btn {
+    font-family: ChubbPublico-Light, Chubb Publico Light, Chubb Publico Roman, Chubb Publico;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    width: auto;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -ms-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  .btn-outline-primary {
+    color: $dark-grey;
+    background-color: transparent;
+    background-image: none;
+    border-color: $dark-grey;
+  }
+  
+  .ui-fileupload-choose {
+    padding: 0.5rem 1.5rem !important;
+  }
+  
+  .custom-close-btn {
+    border: 0px !important;
+    background: transparent !important;
+  }
+  .svg {
+    width: 18px;
+    height: 22px;
+  }
+  .svg-upload-complete {
+    width: 25px;
+    height: 25px;
+  }
+  .drag-drop-text {
+    height: 20px;  
+    color: $dark-grey;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .max-total-attachment {
+      height: 16px;
+      color: $light-gray;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19px;
+      text-align: center;
+  }
+
+  .file-format-accept {
+   @extend .max-total-attachment 
+  }
+  .error-text {
+    padding: 5px 0;
+  }
+
+  .progress-container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .progress-bar {
+    width: 1%;
+    height: 5px;
+  }
+  
+  @media screen and (max-width:568px){
+    .ui-fileupload-buttonbar{
+      padding-top: 20px !important;
+      text-align: center;
+    }
+    .drag-drop-text {
+      display: none;
+    }
+  }
