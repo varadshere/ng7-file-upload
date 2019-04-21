@@ -64,7 +64,6 @@ $dark-grey: #364A60;
     border-radius: 0;
     border: 0 none;
   }
-  
   /* Simple */
   .ui-fileupload-choose {
     position: relative;
@@ -112,7 +111,6 @@ $dark-grey: #364A60;
   
   .ui-fileupload-content {
     border: 1.4px dashed #D5D5D5 !important;
-    margin-top: 20px;
   }
   
   .ui-fileupload-buttonbar {
@@ -192,9 +190,36 @@ $dark-grey: #364A60;
     -ms-flex-align: center !important;
     align-items: center !important;
   }
-  
+
+  .justify-content-between {
+    justify-content: space-between !important;
+  }
+  .flex-grow-1 {
+    flex-grow: 1 !important;
+  }
+  .align-end {
+    text-align: end;
+  }
+  .align-self-center {
+    align-self: center !important;
+  }
   /* Browse for file button */
-  
+  .progress-bar {
+    // background-color: rgb(21, 96, 144);
+    height: 5px;
+    border-radius: 5px;
+  }
+  .progress-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .file-size {
+    // width: 105px;
+    white-space: nowrap;
+  }
+  .file-row {
+    padding-bottom: 10px;
+  }
   .btn {
     font-family: ChubbPublico-Light, Chubb Publico Light, Chubb Publico Roman, Chubb Publico;
     display: inline-block;
@@ -236,7 +261,6 @@ $dark-grey: #364A60;
   }
   
   .svg {
-    width: 18px;
     height: 22px;
     filter: invert(.25) sepia(1) saturate(5) hue-rotate(175deg);
     -webkit-filter: invert(.25) sepia(1) saturate(5) hue-rotate(175deg);

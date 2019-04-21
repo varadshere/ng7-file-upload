@@ -1,1 +1,11 @@
-<ng7-file-upload></ng7-file-upload>
+<ng7-file-upload
+mode="basic" 
+name="demo[]" 
+url="./upload.php" 
+accept=".csv,.xml,.tsv,.doc,.docx,.pdf,image/*" 
+maxFileSize="1000000" 
+(onUpload)="onBasicUpload($event)" 
+[autoUpload]="false"
+uploadBtnLabel="varadshere"
+chooseLabel="Browse"
+></ng7-file-upload>

@@ -11,7 +11,7 @@ import {
   NgZone,
   AfterViewInit,
 } from '@angular/core';
-import { DomHandler } from './DomHandler';
+import { DomHandler } from './projects/ng7-file-upload/src/lib/DomHandler';
 import { Message, UploadDocument } from './Interfaces';
 import { DomSanitizer } from '@angular/platform-browser';
 import { FormControl } from '@angular/forms';
